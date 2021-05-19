@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <title>Breast Cancer Detrection - (Invasive Dutcal Carcinoma)</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/static/css/form-upload.css" rel="stylesheet">
+  </head>
+
+  <body class="text-center">
+    <form class="form-upload" method=post enctype=multipart/form-data action="/predict_tissue">
+      <h1 class="h3 mb-3 font-weight-normal"><b>Please Upload IDC Based Tissue Image</b></h1><br>
+
+      <b>UPLOAD IMAGE : </b><input type="file" id="image" name="image" class="form-control" required autofocus><br>
+
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Predict</button><br>
+
+      <p class="mt-5 mb-3 text-muted">&copy; C.K.P.C.E.T AI/ML DEVOPS - 2020-2021</p>
+    </form>
+  </body>
+</html>
